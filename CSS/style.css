@@ -1,0 +1,178 @@
+body, html{
+  height: 100%;
+  margin:0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  background-color: #f4f4f4;
+}
+
+/*Global*/
+.Container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;/*if something comes out of div dont want scroll bar appearing*/
+}
+
+.parallaxText{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+/*Header*/
+header{
+  background-color: #373737;/*Charcoal colour*/
+  color: #ffffff;
+  min-height: 70px;
+  padding-top: 0;
+  /*border-bottom: #e8491d 3px solid;*/
+}
+
+/*Links in Header*/
+header a{
+  color: #ffffff;
+  text-decoration: none; /*Doesn't look like a link*/
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+/*List of the nav*/
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;/*Top Right Bottom Left*/
+}
+
+header #Name{
+  float: left;
+  padding-left: 20px;
+}
+
+header nav{
+  margin: 10px;
+  float: right;
+}
+
+.list{
+  padding-left: 20px;
+  color: black;
+  font-size: 30px;
+}
+
+/*First image*/
+.parallaxImg1{
+  background-image: url('../images/img1.JPG');/*Image of myself*/
+  min-height: 62%;
+  position: relative;
+  opacity: 0.70;
+  background-attachment:fixed;/*Paralax the scroll*/
+  background-position: center center;
+  background-repeat: no-repeat; /*Dont want image to repeat*/
+  background-size: cover; /*covers entire space*/
+  margin: auto;
+  padding: 0;
+}
+
+/*Second Image*/
+.parallaxImg2{
+  background-image: url('../images/img3.jpg');/*Image of coding*/
+  min-height: 55%;
+  position: relative;
+  opacity: 0.70;
+  background-attachment:fixed;/*Paralax the scroll*/
+  background-position: center center;
+  background-repeat: no-repeat; /*Dont want image to repeat*/
+  background-size: cover; /*covers entire space*/
+  margin: auto;
+  padding: 0;
+}
+
+.parallaxImg3{
+  background-image: url('../images/img2.JPG');/*Image of beach*/
+  min-height: 55%;
+  position: relative;
+  opacity: 0.70;
+  background-attachment:fixed;/*Parallax the scroll*/
+  background-position: center center;
+  background-repeat: no-repeat; /*Dont want image to repeat*/
+  background-size: cover; /*covers entire space*/
+  margin: auto;
+  padding: 0;
+}
+
+section{
+  text-align: center;
+  padding: 50px 80px;/*padding top and side*/
+}
+
+section.sectionBlackBoard{
+  padding:10px;
+  text-align: center;
+}
+
+.sectionLight{
+  background-color: #C09F80; /*Silk color*/
+}
+
+.sectionDark{
+  background-color: #76323F;
+  color: #ffffff;
+}
+
+.sectionNeutral{
+  background-color: #D7CEC7;
+}
+
+.sectionBlackBoard{
+  background-color: #565656;
+  color: #ffffff;
+}
+
+.parallaxText{
+  position: absolute;
+  top: 50%;/*Want text to be in center of screen*/
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.parallaxText .border{
+  background-color: #565656;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.parallaxText .border.transparent{
+  background-color: transparent;
+}
+
+#gallery{
+  width: 80%; /*Bc responsive website better to have a percent instead static*/
+  margin: auto; /*Centers text*/
+  overflow: hidden;/*if something comes out of div dont want scroll bar appearing*/
+}
+
+#gallery.box{
+  float:left;
+  text-align: center;
+  width: 30%; /*responsive so percentage*/
+  padding: 20px;
+}
+
+.box img{
+  width: 30%;
+  height: 30%;
+}
+
+footer{
+  color: #ffffff;
+  background: #373737;
+  text-align: center;
+  font-size: 12px;
+}

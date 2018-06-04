@@ -1,0 +1,129 @@
+body, html{
+  height: 100%;
+  margin:0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  background-color: #f4f4f4;
+}
+
+.Container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;/*if something comes out of div dont want scroll bar appearing*/
+}
+
+/*Header*/
+header{
+  background-color: #373737;/*Charcoal colour*/
+  color: #ffffff;
+  min-height: 70px;
+  padding-top: 0;
+  /*border-bottom: #e8491d 3px solid;*/
+}
+
+/*Links in Header*/
+header a{
+  color: #ffffff;
+  text-decoration: none; /*Doesn't look like a link*/
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+/*List of the nav*/
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;/*Top Right Bottom Left*/
+}
+
+header #Name{
+  float: left;
+  padding-left: 20px;
+}
+
+header nav{
+  margin: 10px;
+  float: right;
+}
+
+.list{
+  padding-left: 20px;
+  color: black;
+  font-size: 30px;
+}
+/*End of header*/
+
+
+/*Gallery*/
+/*#gallery{
+  /*width: 80%; /*Bc responsive website better to have a percent instead static*/
+  /*margin: auto;*/
+  /*padding-top: 20px;*/
+  /*overflow: hidden;/*if something comes out of div dont want scroll bar appearing*/
+/*}
+
+/*.wrapper{
+  width: 80%; /*Bc responsive website better to have a percent instead static*/
+  /*margin: auto; /*Centers text*/
+  /*overflow: hidden;/*if something comes out of div dont want scroll bar appearing*/
+/*}*/
+
+/*#gallery .box{
+  float:left;
+  width: 30%;/*Responsive so percent*/
+  /*padding: 10px;
+}*/
+
+/*.box img{
+  width: 350px;
+  height: 250px;
+}*/
+
+/*Use CSS flexbox*/
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 31%; /* IE10 */
+    flex: 31%;
+    max-width: 31%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1080px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+footer{
+  color: #ffffff;
+  background: #373737;
+  text-align: center;
+  font-size: 12px;
+}
