@@ -64,7 +64,7 @@ header nav{
 
 /*First image*/
 .parallaxImg1{
-  background-image: url('../images/img1.JPG');/*Image of myself*/
+  background-image: url('../Images/img1.JPG');/*Image of myself*/
   min-height: 62%;
   position: relative;
   opacity: 0.70;
@@ -78,7 +78,7 @@ header nav{
 
 /*Second Image*/
 .parallaxImg2{
-  background-image: url('../images/img3.jpg');/*Image of coding*/
+  background-image: url('../Images/img3.jpg');/*Image of coding*/
   min-height: 55%;
   position: relative;
   opacity: 0.70;
@@ -91,7 +91,7 @@ header nav{
 }
 
 .parallaxImg3{
-  background-image: url('../images/img2.JPG');/*Image of beach*/
+  background-image: url('../Images/img2.JPG');/*Image of beach*/
   min-height: 55%;
   position: relative;
   opacity: 0.70;
