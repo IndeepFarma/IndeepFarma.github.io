@@ -1,0 +1,127 @@
+body, html{
+  height: 100%;
+  margin:0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  background-color: #f4f4f4;
+}
+
+/*Global*/
+.Container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;/*if something comes out of div dont want scroll bar appearing*/
+}
+
+/*Header*/
+header{
+  background-color: #373737;/*Charcoal colour*/
+  color: #ffffff;
+  min-height: 70px;
+  padding-top: 0;
+  /*border-bottom: #e8491d 3px solid;*/
+}
+
+/*Links in Header*/
+header a{
+  color: #ffffff;
+  text-decoration: none; /*Doesn't look like a link*/
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+/*List of the nav*/
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;/*Top Right Bottom Left*/
+}
+
+header #Name{
+  float: left;
+  padding-left: 20px;
+}
+
+header nav{
+  margin: 10px;
+  float: right;
+}
+/*End of header*/
+
+#backgroundImage{
+  background-image: url('../Images/img2.JPG');/*Image of beach*/
+  min-height: 100%;
+  position: relative;
+  opacity: 0.80;
+  background-attachment:fixed;/*Parallax the scroll*/
+  background-position: center center;
+  background-repeat: no-repeat; /*Dont want image to repeat*/
+  background-size: cover; /*covers entire space*/
+  margin: auto;
+  padding: 0;
+}
+
+#menu{
+  color: #ffffff;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+#menu li{
+  text-align: center;
+  list-style-type: none;
+  width: 100%;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  padding-top: 30px;
+  font-size: 30px;
+}
+
+#menu a{
+  color: #ffffff;
+}
+
+/*#menu .border{
+  background-color: #565656;
+  color: #ffffff;
+  padding: 20px;
+}*/
+
+/*Sidbar
+aside{
+  float:left;
+}
+
+.sidebar {
+    width: 170px;
+    /*position: fixed;
+    z-index: 1;
+    top: 80px;
+    left: 10px;
+    background: #111;
+    overflow-x: hidden;
+    padding: 8px 0;
+    color: #818181;
+}
+
+/*Sidebar links
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+}
+
+/*When hovering links change colour
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+section{
+  margin-left: 180px; /* Same width as the sidebar + left position in px
+  padding: 0px 10px;
+}*/

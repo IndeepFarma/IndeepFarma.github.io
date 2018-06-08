@@ -90,7 +90,7 @@ header nav{
     padding: 0 4px;
 }
 
-/* Create four equal columns that sits next to each other */
+/* Create three equal columns that sits next to each other */
 .column {
     -ms-flex: 31%; /* IE10 */
     flex: 31%;
@@ -103,8 +103,8 @@ header nav{
     vertical-align: middle;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 1080px) {
+/* Responsive layout - makes a two column-layout instead of three columns */
+@media screen and (max-width: 800px) {
     .column {
         -ms-flex: 50%;
         flex: 50%;
