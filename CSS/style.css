@@ -74,6 +74,7 @@ header nav{
   background-size: cover; /*covers entire space*/
   margin: auto;
   padding: 0;
+  max-width: 100%;
 }
 
 /*Second Image*/
