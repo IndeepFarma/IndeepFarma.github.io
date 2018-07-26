@@ -194,12 +194,6 @@ section .about p{
    letter-spacing: 4px;
 }
 
-span{
-  background-color: #D6D0DA;
-  color: #ffffff;
-  padding: 20px;
-}
-
 .btnGallery {
     border: 2px solid black;
     background-color: white;
@@ -214,8 +208,9 @@ span{
     background: #e7e7e7;
 }
 
+/*Second Parallax Image*/
 .parallaxImg2{
-  background-image: url('../Images/5.jpg');
+  background-image: url('../Images/9.jpg');
   min-height: 60%;
   position: relative;
   background-attachment:fixed;/*Parallax the scroll*/
@@ -225,11 +220,38 @@ span{
   margin: auto;
   padding: 0;
   max-width: 100%;
+  text-align: center;
+}
+
+.parallaxImg2 h1{
+  color: white;
+  font-size: 50px;
 }
 
 .parallaxImg2 p{
-  text-align: center;
   color: white;
   font-size: 24px;
-  padding-top: 100px;
+  padding-top: 50px;
+}
+
+.parallaxImg2 a{
+   text-decoration: none;
+   color: #000000;
+   text-transform: uppercase;
+   font-size: 24px;
+   letter-spacing: 4px;
+}
+
+.btnContactMe {
+    border: 2px solid black;
+    background-color: white;
+    border-color: #e7e7e7;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btnContactMe:hover {
+    background: #e7e7e7;
 }
