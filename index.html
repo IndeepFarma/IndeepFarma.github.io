@@ -5,9 +5,30 @@
     <meta name="viewport" content="width-device-width">
     <title>Indeep Farma | Home</title>
     <link rel="stylesheet" href="./CSS/style.css">
-  </head>
-  <body>
 
+    <!-- SMOOTH SCROLL -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+  </script>
+  <!-- End of SMOOTH SCROLL -->
+  </head>
+
+<!--body-->
+  <body>
 <!--Header-->
     <header>
       <div class="headerContainer">
@@ -154,6 +175,8 @@
     <footer>
         <p>Indeep Farma, Copyright &copy 2018</p>
     </footer>
+
+
 
 
   </body>
