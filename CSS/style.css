@@ -270,6 +270,20 @@ section .about p{
   letter-spacing: 4px;
 }
 
+/*Parallax image 3*/
+.parallaxImg3{
+  background-image: url('../Images/10.jpg');/*Image of myself*/
+  min-height: 70%;
+  position: relative;
+  /*background-attachment:fixed;/*Parallax the scroll*/
+  background-position: center center;
+  background-repeat: no-repeat; /*Dont want image to repeat*/
+  /*background-size: cover; /*covers entire space*/
+  margin: auto;
+  padding: 0;
+  max-width: 100%;
+}
+
 /*Footer*/
 footer {
     position: absolute;
