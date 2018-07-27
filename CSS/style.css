@@ -161,7 +161,8 @@ header #Name{
   to {opacity: 1}
 }
 
-.about{
+/*About Section*/
+#about{
   text-align: center;
 }
 
@@ -175,6 +176,7 @@ section .about p{
   font-weight: 200;
 }
 
+/*Gallery text*/
 #viewGallery{
   text-align: center;
 }
@@ -242,6 +244,7 @@ section .about p{
    letter-spacing: 4px;
 }
 
+/*Contact me Button*/
 .btnContactMe {
     border: 2px solid black;
     background-color: white;
@@ -254,4 +257,29 @@ section .about p{
 
 .btnContactMe:hover {
     background: #e7e7e7;
+}
+
+/*Projects*/
+#projects h1{
+  font-size: 40px;
+  text-align: center;
+  color:#D6D0DA;
+  padding: 20px 0 20px 0;
+  font-weight:300;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+/*Footer*/
+footer {
+    position: absolute;
+    width:100%;
+    border-top: solid black;
+    border-width: thin;
+    border-spacing: inherit;
+}
+
+footer p{
+  color: black;
+  text-align: center;
 }
