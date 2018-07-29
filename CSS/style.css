@@ -72,7 +72,6 @@ header #Name{
   font-size: 21px;
   letter-spacing: 8px; /*Space between letters*/
   line-height: 60px; /*Space betwween the lines*/
-  /*text-transform: uppercase;*/
 }
 
 .welcomeText h3{
@@ -196,6 +195,7 @@ section .about p{
    letter-spacing: 4px;
 }
 
+/*Gallery Button*/
 .btnGallery {
     border: 2px solid black;
     background-color: white;
@@ -270,15 +270,34 @@ section .about p{
   letter-spacing: 4px;
 }
 
+.border{
+  border: 2px solid #D6D0DA;
+}
+
+#galacticTravels h2{
+  font-size: 28px;
+  text-align: center;
+  color:#D6D0DA;
+  font-weight:300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+#galacticTravels p{
+  font-size: 18px;
+  text-align: center;
+  color:#;
+  font-weight:300;
+}
+
 /*Parallax image 3*/
-.parallaxImg3{
+.selfPicture{
   background-image: url('../Images/10.jpg');/*Image of myself*/
   min-height: 70%;
   position: relative;
   /*background-attachment:fixed;/*Parallax the scroll*/
   background-position: center center;
   background-repeat: no-repeat; /*Dont want image to repeat*/
-  /*background-size: cover; /*covers entire space*/
   margin: auto;
   padding: 0;
   max-width: 100%;
