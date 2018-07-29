@@ -274,7 +274,7 @@ section .about p{
   border: 2px solid #D6D0DA;
 }
 
-#galacticTravels h2{
+.border h2{
   font-size: 28px;
   text-align: center;
   color:#D6D0DA;
@@ -283,10 +283,9 @@ section .about p{
   letter-spacing: 3px;
 }
 
-#galacticTravels p{
+.border p{
   font-size: 18px;
   text-align: center;
-  color:#;
   font-weight:300;
 }
 
