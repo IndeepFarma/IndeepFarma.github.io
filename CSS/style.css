@@ -25,9 +25,9 @@ body {
   background-image: url("../IMG/im_1.jpeg");
   background-color: rgb(156, 168, 170);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-blend-mode: multiply;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .header-content{
