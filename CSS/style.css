@@ -1,0 +1,40 @@
+body {
+  background-color: #f4f4f4;
+  font-family: 'Cutive Mono', monospace;
+  background-image: url('/IMG/im_1.jpeg');
+}
+
+/* Navigation */
+.navbar {
+  font-family: 'Special Elite', cursive;
+  background-color: #1A1A1D;
+}
+
+.navbar > a{
+  margin-left:75px;
+}
+
+.navbar-nav > li{
+  margin-left:30px;
+  margin-right:50px;
+}
+
+/* Header */
+.header{
+  color: #ffffff;
+  height: 90vh;
+  background-image: url("../IMG/im_1.jpeg");
+  background-color: rgb(156, 168, 170);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+}
+
+.header-content{
+  position: absolute;
+  transform: translate(-50%, -40%);
+  left: 50%;
+  top: 50%;
+  text-align: left;
+}

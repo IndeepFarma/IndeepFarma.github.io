@@ -1,32 +1,103 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <title>Personal WebSite</title>
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aspiring Full Stack Developer with a passion for art and sports">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<!--body-->
-  <body>
-    <div class="box">
-      <img src="profile.jpg" alt="" class="box-img">
-      <h1> Indeep Farma </h1>
-      <h5> Programmer - Artist </h5>
-      <p> A programmer is an individual that writes/creates computer software or applications by giving the computer specific programming instructions.
-      Since I was a kid I have always loved art, programming allows me to use code to create anything I can imagine. The possiblities are endless!</p>
-      <ul>
-        <li><a href="https://github.com/IndeepFarma/IndeepFarma.github.io"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
-        <li><a href="https://www.instagram.com/indeep_art/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/indeep-farma/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-      </ul>
+  <!-- Bootstrap link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- Google Fonts and Stylesheets -->
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/style.css">
+  <script src="JS/main.js"></script>
+  <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+
+  <title>Indeep Farma</title>
+</head>
+
+<body>
+  <!-- Start Home Section -->
+   <!-- Nav Bar -->
+   <nav class="navbar navbar-expand-md navbar-dark">
+    <a class="navbar-brand" href="#">Indeep Farma</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Projects">Projects</a>
+          </li>
+        </ul>
+    </div>  
+   </nav>
+  <!-- End Nav -->
+
+   <div class="overflow-hidden">
+    <div class="row">
+      <div class="col-md header">
+        <div class="header-content">
+          <div>
+            <h1 id="typewriter">Hi, welcome to my website</h1>
+          </div>
+        </div>
+      </div>
     </div>
+   </div>
+  <!-- End Home -->
 
-    <!--footer
-    <footer>
-      <p>Indeep Farma, Copyright &copy 2019</p>
-    </footer>
-  -->
+  <br>
+
+  <!-- Start About -->
+  <div id="About" class="offset">
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-md">
+          <h1>About Me.</h1>
+          <p>I am a student at the University of Guelph with a love for programming, art and sports!
+            I try to combine my passion of art with my love of computer science whenever and however I can. I have experience
+            using .NET framework and AGILE methodolgy from my previous internship at Sunwing, along with numerous other languages and
+            technology including but not limited to C/C++, Java, HTML, CSS, JS, REGEX, MYSQL, GIT, and TFS/Azure DevOps. I have a keen
+            interest in UI/UX and Artificial Intelligence and hope to eventually contribute to advances within A.I. Aside from
+            Computer Science I am also a freelance artist! Feel free to check out some of my projects and artwork!
+          </p>
+        </div>
+      </div>
+     </div>
+  </div>
+  <!-- End About Section -->
+
+  <br>
+
+  <!-- Start Projects Section -->
+  <div id="Projects" class="offset">
+
+  </div>
+  <!-- End Projects section -->
+
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <!-- Init smooth Scroll -->
+   <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
 </body>
 
 </html>
