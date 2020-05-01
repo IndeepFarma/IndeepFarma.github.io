@@ -37,3 +37,36 @@ body {
   top: 50%;
   text-align: left;
 }
+
+/* Horizontal Line */
+hr {
+  width: 75%;
+}
+
+/* Social media icons section */
+#social {
+  display: flex;
+  justify-content: center;
+}
+
+#social ul{
+  justify-content: center;
+}
+
+#social li{
+  display: inline-block;
+  margin-left: 100px;
+  margin-right: 100px;
+  list-style: none;
+}
+
+#social li a{
+  color: black;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+
+#social li a:hover{
+  color: #b9b9b9; 
+}
