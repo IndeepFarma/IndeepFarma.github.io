@@ -20,7 +20,7 @@ body {
 
 /* Header */
 .header{
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-blend-mode: multiply;
   background-color: rgb(156, 168, 170);
   background-image: url("../IMG/im_1.jpeg");
@@ -28,6 +28,13 @@ body {
   background-size: cover;
   color: #ffffff;
   height: 90vh;
+}
+
+/* On smaller screens and iOS fix dimension */
+@media only screen and (max-width: 643px) {
+  .header {
+    background-attachment: scroll;
+  }
 }
 
 .header-content{
