@@ -20,12 +20,12 @@ body {
 
 /* Header */
 .header{
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-blend-mode: multiply;
   background-color: rgb(156, 168, 170);
   background-image: url("../IMG/im_1.jpeg");
   background-position: center;
-  background-size: scroll;
+  background-size: cover;
   color: #ffffff;
   height: 90vh;
 }
