@@ -6,7 +6,7 @@ body {
 /* Navigation */
 .navbar {
   font-family: 'Special Elite', cursive;
-  background-color: #1A1A1D;
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
 }
 
 .navbar > a{
@@ -20,27 +20,32 @@ body {
 
 /* Header */
 .header{
-  color: #ffffff;
-  height: 90vh;
-  background-image: url("../IMG/im_1.jpeg");
+  background-attachment: fixed;
+  background-blend-mode: multiply;
   background-color: rgb(156, 168, 170);
+  background-image: url("../IMG/im_1.jpeg");
   background-position: center;
   background-size: cover;
-  background-blend-mode: multiply;
-  background-attachment: scroll;
+  color: #ffffff;
+  height: 90vh;
 }
 
 .header-content{
   position: absolute;
-  transform: translate(-50%, -40%);
+  transform: translate(-50%, -125%);
   left: 50%;
   top: 50%;
-  text-align: left;
+  text-align: center;
 }
 
 /* Horizontal Line */
 hr {
   width: 75%;
+}
+
+/* About section */
+#About h1 {
+  text-align: center;
 }
 
 /* Social media icons section */
@@ -51,6 +56,8 @@ hr {
 
 #social ul{
   justify-content: center;
+  margin: none;
+  padding: none;
 }
 
 #social li{
@@ -68,5 +75,14 @@ hr {
 }
 
 #social li a:hover{
-  color: #b9b9b9; 
+  color: #aca9a9; 
+}
+
+/* About section */
+#Projects h1 {
+  text-align: center;
+}
+
+.projectDescrip{
+  text-align: center;
 }

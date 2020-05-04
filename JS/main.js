@@ -43,4 +43,29 @@ document.addEventListener('DOMContentLoaded',function(event){
   StartTextAnimation(0);
 });
 
-/* Smooth Scroll */
+
+/* Smooth Scroll Init*/
+var scroll = new SmoothScroll('a[href*="#"]');
+
+
+/* Owl Carousel */
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  autoHeight: false,
+  responsive : {
+    // breakpoint from 0 up
+    0 : {
+        items : 1
+    },
+    // breakpoint from 480 up
+    480 : {
+        items: 2
+    },
+    // breakpoint from 768 up
+    768 : {
+        items: 3
+    }
+}
+})
