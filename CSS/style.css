@@ -25,7 +25,7 @@ body {
   background-color: rgb(156, 168, 170);
   background-image: url("../IMG/im_1.jpeg");
   background-position: center;
-  background-size: inherit;
+  background-size: scroll;
   color: #ffffff;
   height: 90vh;
 }
