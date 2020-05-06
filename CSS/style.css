@@ -31,7 +31,7 @@ body {
 }
 
 /* On smaller screens and iOS fix dimension */
-@media only screen and (max-width: 643px) {
+@media only screen and (max-width: 768px) {
   .header {
     background-attachment: scroll;
   }
