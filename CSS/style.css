@@ -30,6 +30,14 @@ body {
   height: 90vh;
 }
 
+.header-content{
+  position: absolute;
+  transform: translate(-50%, -125%);
+  left: 50%;
+  top: 50%;
+  text-align: center;
+}
+
 /* On smaller screens and iOS fix dimension */
 @media only screen and (max-width: 768px) {
   .header {
@@ -37,12 +45,18 @@ body {
   }
 }
 
-.header-content{
-  position: absolute;
-  transform: translate(-50%, -125%);
-  left: 50%;
-  top: 50%;
-  text-align: center;
+/* iPad landscape layout */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  .header {
+    background-attachment: scroll;
+  }
+}
+
+/* iPhone SE/5 */
+@media only screen and (max-width: 320px){
+  .header-content{
+    transform: translate(-50%,-50%);
+  }
 }
 
 /* Horizontal Line */
